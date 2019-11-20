@@ -7,8 +7,8 @@ function Aside() {
     return (
         <aside className="Aside">
             <ul>
-                <Link url="#">Aside Link 2</Link>
-                <Link url="#">Aside Link 3</Link>
+                {/* <Link url="#">Aside Link 2</Link>
+                <Link url="#">Aside Link 3</Link> */}
             </ul>
         </aside>
     )

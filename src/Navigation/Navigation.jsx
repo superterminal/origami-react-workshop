@@ -7,11 +7,11 @@ function Navigation() {
     return (
         <nav className="Navigation">
             <ul>
-                <Link url="#">
+                <Link to="/">
                     <img id="logo" src="logo192.png" alt="my-app" />
                 </Link>
-                <Link url="#">Link 2</Link>
-                <Link url="#">Link 3</Link>
+                <Link to="/">Posts</Link>
+                <Link to="#">Link 3</Link>
             </ul>
         </nav>
     )
