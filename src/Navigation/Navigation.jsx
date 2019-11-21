@@ -11,7 +11,10 @@ function Navigation() {
                     <img id="logo" src="logo192.png" alt="my-app" />
                 </Link>
                 <Link to="/">Posts</Link>
-                <Link to="#">Link 3</Link>
+                <Link to="/create-post">New post</Link>
+                <Link to="/profile">Profile</Link>
+                <Link to="/register">Register</Link>
+                <Link to="/login">Login</Link>
             </ul>
         </nav>
     )
